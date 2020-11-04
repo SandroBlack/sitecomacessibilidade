@@ -42,9 +42,13 @@
 .contraste nav,
 .contraste div,
 .contraste li,
-.contraste span{
+.contraste section{
 	background: black !important;
 	color: white !important;
+}
+
+.contraste span{
+	background-color: orange !important;	
 }
 
 .contraste a {

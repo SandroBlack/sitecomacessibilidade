@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Facima - Administração</title>
+		<link rel="icon" href="../img/favicon-16x16.png">
+
+		<!-- Bootstrap CSS -->    
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+		<!-- Optional CSS -->
+		<link rel="stylesheet" href="../css/style.css"> 
+	</head>
+
+	<body>
+  		<div class="container">
+				<!-- TOPO -->
+				<nav class="col-md-12 navbar navbar-expand-lg navbar-white" id="menu" name="menu">		
+					<a class="navbar-brand text-dark" href="#" title="Menu Acessibilidade"><i class="fas fa-eye"></i>&nbsp;Menu Acessibilidade</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Botão Contraste">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navMenu">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#" id="mudarContraste" name="mudarContraste" accesskey="1" title="Mudar Contraste [control + shift + 1]"><i class="fas fa-adjust"></i>&nbsp;Mudar Contraste</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#" id="aumentarFonte" name="aumentarFonte" accesskey="2" title="Aumentar Fonte [control  shift + 2]"><i class="fas fa-plus-square"></i>&nbsp;Aumentar Fonte</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#" id="diminuirFonte" name="diminuirFonte" accesskey="3" title="Diminuir Fonte Fonte [control  shift + 3]"><i class="fas fa-minus-square"></i>&nbsp;Diminuir Fonte</a>
+							</li>
+						</ul>				
+					</div>							
+				</nav>
+
+				<div class="row bg-light justify-content-between">
+					<div class="col-md-6">
+						<a href="../index.html"><img class="img-fluid pb-1" src="../img/Logo_Teste300c.png" alt="Imagem representando o logo da faculdade facima, dentro da imagem está escrito Facima Faa Eisa com fundo branco" title="Logo Faculdade Facima - [Retornar a Página Inicial]"></a>
+					</div>			
+					<div class="col-md-6 align-self-center">
+							<a href="login.html" class="btn btn-dark float-right" id="btnAcessar" title="Botão Fazer Login" aria-label="Botão de Acesso ao Sistema"><i class="far fa-user"></i>&nbsp;Fazer Login</a>
+					</div>
+				</div>
+					
+				<header class="row align-items-center mb-3 topo">			
+					<nav class="col-md-12 navbar navbar-expand-lg navbar-dark">
+						<!-- <a class="navbar-brand h1 text-light mb-0" href="../index.html">FACIMA - FAA - IESA</a> -->
+						<div class="dropdown">
+							<button class="btn topo text-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								FACIMA - FAA - IESA
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="sobre.html">Sobre Nós</a>
+								<a class="dropdown-item" href="estrutura.html">Estrutura</a>
+								<a class="dropdown-item" href="#">...</a>
+							</div>
+						</div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navMenu">
+							<ul class="navbar-nav ml-auto mr-auto">
+								<li class="nav-item">
+									<a class="nav-link text-light" href="biblioteca.html">Biblioteca</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-light" href="cursos.html">Cursos</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-light" href="processoseletivo.html">Processo Seletivo</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-light" href="contato.html">Contato</a>
+								</li>
+							</ul>
+							<form class="form-inline">
+								<input class="form-control mr-2" type="search" placeholder="Buscar..." title="Digite sua busca" aria-label="Campo de Busca">
+								<button class="btn btn-dark" type="submit" title="Botão Buscar" aria-label="Botão de Busca"><i class="fas fa-search"></i></button>
+							</form>	
+						</div>							
+					</nav>								
+				</header>
+			<!-- FIM TOPO -->					
+			
+			<!-- CONTEÚDO -->
+			<div class="row cursos">
+				<div class="col-md-12">
+						<h4>DIREITO - Curso Superior de Graduação Tradicional</h4>
+						<hr style="border-width: 5px; border-color:#006FA7">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sobre</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Grade Curricular</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Corpo Dorcente</a>
+							</li>
+						</ul>
+					
+				</div>
+			</div>
+			
+			<!-- TESTE -->
+			<div class="row bg-light">
+				<div class="tab-content col-md-12" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<h5 class="mt-3">Sobre o Curso</h5>
+							<hr style="border-width: 5px; border-color:#006FA7">
+							<p>O curso de Direito prepara o aluno dando-lhe uma formação multidisciplinar, de tal forma que, ao atingir o bacharelado, estará apto a exercer tanto a advocacia privada como profissional liberal, trabalhando em empresas ou escritórios, como também a atuar na área de consultoria ou, ainda, a entrar para a carreira jurídica pública como delegado de polícia, juiz de Direito, promotor público, advogado ou defensor público, entre outras. O curso também proporciona aos gestores públicos e privados uma enormidade de conhecimento que os qualifica a acrescer em currículo e conhecimento normativo voltado a uma gestão mais ampla e diferenciada. É um curso amplo, que exige bastante leitura, aquisição de cultura geral, exercício de memória, rapidez de raciocínio, elevado grau de associação, análise e coordenação de ideias, tudo voltado para a defesa do interesses coletivos e individuais. Outro diferencial do curso é seu Núcleo de Prática Jurídica com convênios com Tribunais, Ministério Público, OAB e inúmeros órgãos públicos e privados, além do seu próprio Escritório de Assistência Jurídica onde o acadêmico terá vários tipos de ambientes práticos jurídicos para prepará-lo para o mundo profissional.</P>
+							
+							<h5>Atividades Principais</h5>
+							<hr style="border-width: 5px; border-color:#006FA7">
+							<p>Para a formação completa, o curso de Direito da IES prepara o aluno, de modo interdisciplinar, a elaborar, reformular e analisar contratos; preparar e apresentar peças do interesse de empresas, instituições públicas etc.; representar o cliente nas relações empregado / empregador, em questões trabalhistas e nas ligadas à Previdência; como delegado de polícia, entre outras atividades, preparar inquérito, chefiar os investigadores de polícia, fiscalizar os setores de armamento e de trânsito; como integrante do Ministério Público (promotor), promover ações penais, investigar, fiscalizar, apurar responsabilidades, promover ações na defesa do consumidor, do meio ambiente etc.; como integrante da Magistratura (juiz), decidir conflitos, aplicar a lei, assegurar a proteção de direitos individuais (liberdade, manifestação de pensamento, intimidade, propriedade etc.).</p>
+							
+							<h5>Mercado de Trabalho</h5>
+							<hr style="border-width: 5px; border-color:#006FA7">
+							<p>O bacharel em Direito possui um vasto campo de atividades, seja como autônomo, seja no serviço público, em empresas particulares ou instituições financeiras. Com a terceirização dos serviços, esses especialistas em Direito ganharam importância e evidência por atuar na elaboração de contratos, formação e dissolução de sociedades, ações civis, penais, comerciais e trabalhistas. Também em consequência da instalação definitiva do Mercosul e do estreitamento das relações de comércio do Brasil com os países vizinhos, a área de Direito Internacional encontra-se em alta no mercado de trabalho. Por meio de concurso público, o bacharel em Direito pode ingressar na carreira de delegado de polícia, promotor ou juiz de Direito, além de outras áreas do serviço público.</p>
+							
+							<h5>As Práticas</h5>
+							<hr style="border-width: 5px; border-color:#006FA7">
+							<ul class="list">
+								<li>Juizados Especiais</li>
+									<li>Assistência Jurídica</li>
+									<li>Júri Simulado</li>
+									<li>Centro de Estudos Internacionais</li>
+									<li>Núcleo de Estudos da Violência</li>
+									<li>Curso de Estágio Profissional</li>
+									<li>Ciclo de Debates e Cursos Especiais</li>
+									<li>Semana Jurídica</li>
+									<li>Iniciação Científica</li>
+									<li>Monitoria</li>
+									<li>Bibliotecas Integradas</li>
+									<li>Atividades Multiensino</li>
+									<li>Acordo de Cooperação de Estágios com Empresas e Órgãos Públicos</li>
+									<li>Banco de Estudos Digitalizado</li>
+									<li>Projeto Integrado de Conclusão de Curso</li>
+									<li>Trabalho de Conclusão de Curso</li>
+							</ul>			
+					</div>
+					
+					<div class="tab-pane fade" id="profile" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						<h5 class="mt-3">Grade Curricular - Ingressantes 2020</h5>
+						<hr style="border-width: 5px; border-color:#006FA7">
+						<table class="table">
+							<thead class="thead-light">
+								<tr>								
+								<th scope="col">Disciplinas</th>
+								<th scope="col">Carga Horária</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>								
+									<td>Ação Penal</td>
+									<td>30</td>								
+								</tr>
+								<tr>								
+									<td>Bases Constitucionais da Administração Pública</td>
+									<td>30</td>								
+								</tr>
+								<tr>								
+									<td>Bases Procedimentais da Administração Pública</td>
+									<td>30</td>								
+								</tr>
+							</tbody>
+							</table>
+					</div>
+					<div class="tab-pane fade" id="contact" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+						<h5 class="mt-3">Corpo Dorcente</h5>
+						<hr style="border-width: 5px; border-color:#006FA7">
+						<table class="table table-bordered">
+								<thead class="thead-light">
+								  <tr>
+									<th scope="col">Nome</th>
+									<th scope="col">Titulação</th>
+									<th scope="col">Graduação</th>
+									<th scope="col">Especialização</th>
+									<th scope="col">Mestrado</th>
+									<th scope="col">Doutorado</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>									
+									<td>Adriana Maria Marques Reis Costa</td>
+									<td>Especialista</td>
+									<td>Direito</td>
+									<td>Direito Processual</td>
+									<td></td>
+									<td></td>									
+								  </tr>		
+								  <tr>									
+									<td>Alexandre Marques de Lima</td>
+									<td>Especialista</td>
+									<td>Direito/ Ciências Contábeis</td>
+									<td>Direito Tributário</td>
+									<td>Gestão de Empresa com ênfase em Marketing</td>
+									<td></td>									
+								  </tr>
+								  <tr>									
+									<td>Carlos Bernardo</td>
+									<td>Especialista</td>
+									<td>Direito</td>
+									<td>Direito Público</td>
+									<td></td>
+									<td></td>									
+								  </tr>										  
+								</tbody>
+							  </table>
+					</div>
+				</div>
+			</div>
+			<!-- FIM CONTEÚDO -->
+				
+			<!-- RODAPÉ -->
+			<footer class="row rodape">
+				<div class="col-md-12">
+					<p class="text-center text-light mt-2">&copy 2020 - Aquilla / Elissandro</p>
+				</div>
+			</footer>
+		</div>
+	
+
+		<!-- Optional JavaScript -->		
+			
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/funcoes.js"></script>	
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
